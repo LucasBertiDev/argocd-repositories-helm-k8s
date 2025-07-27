@@ -1,0 +1,9 @@
+tokenGithub: ""
+urlUsuarioGithub: https://github.com/LucasBertiDev
+usuarioGithub: LucasBertiDev
+repositorios:
+  - nome: postgres-k8s
+  - nome: accounts-k8s
+  - nome: linkerd-viz
+  - nome: lancamentos-k8s
+  - nome: argocd-applications-k8s

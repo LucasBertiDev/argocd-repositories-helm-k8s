@@ -1,0 +1,21 @@
+{{- range .Values.repositorios }}
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: {{ .nome }}
+  labels:
+    helm.sh/chart: {{ $.Chart.Name }}
+    app.kubernetes.io/version: {{ $.Chart.AppVersion }}
+    app.kubernetes.io/managed-by: {{ $.Release.Service }}
+    app.kubernetes.io/part-of: "argocd"
+    argocd.argoproj.io/secret-type: repository
+  annotations:
+    managed-by: argocd.argoproj.io
+data:
+  name: {{ .nome | b64enc }}
+  project: {{ .projeto | default "default" | b64enc }}
+  type: {{ "git" | b64enc }}
+  url: {{ printf "%s/%s" $.Values.urlUsuarioGithub .nome | b64enc }}
+type: Opaque
+{{- end }}
