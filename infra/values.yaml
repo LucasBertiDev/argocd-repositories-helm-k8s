@@ -8,3 +8,5 @@ repositorios:
   - nome: lancamentos-k8s
   - nome: argocd-applications-k8s
   - nome: argocd-repositories-helm-k8s
+  - nome: argocd-helm-chart-k8s
+  - nome: cartoes
