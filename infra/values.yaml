@@ -7,3 +7,4 @@ repositorios:
   - nome: linkerd-viz
   - nome: lancamentos-k8s
   - nome: argocd-applications-k8s
+  - nome: argocd-repositories-helm-k8s
