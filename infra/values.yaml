@@ -1,5 +1,4 @@
-tokenGithub: ""
-urlUsuarioGithub: https://github.com/LucasBertiDev
+urlGithub: https://github.com
 usuarioGithub: LucasBertiDev
 repositorios:
   - nome: postgres-k8s
