@@ -9,3 +9,4 @@ repositorios:
   - nome: argocd-repositories-helm-k8s
   - nome: argocd-helm-chart-k8s
   - nome: cartoes-k8s
+  - nome: prometheus-helm-chart-k8s
