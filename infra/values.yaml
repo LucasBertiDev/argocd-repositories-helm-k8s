@@ -10,3 +10,4 @@ repositorios:
   - nome: argocd-helm-chart-k8s
   - nome: cartoes-k8s
   - nome: prometheus-helm-chart-k8s
+  - nome: kubernetes-persistent-volumes-k8s
