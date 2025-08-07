@@ -16,6 +16,6 @@ data:
   name: {{ .nome | b64enc }}
   project: {{ .projeto | default "default" | b64enc }}
   type: {{ "git" | b64enc }}
-  url: {{ printf "%s/%s/%s" $.Values.urlGithub $.Values.usuarioGithub .nome | b64enc }}
+  url: {{ printf "%s/%s/%s%s" $.Values.urlGithub $.Values.usuarioGithub .nome "-k8s" | b64enc }}
 type: Opaque
 {{- end }}

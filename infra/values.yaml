@@ -1,13 +1,14 @@
 urlGithub: https://github.com
 usuarioGithub: LucasBertiDev
 repositorios:
-  - nome: postgres-k8s
-  - nome: accounts-k8s
+  - nome: postgres
+  - nome: accounts
   - nome: linkerd-viz
-  - nome: lancamentos-k8s
-  - nome: argocd-applications-k8s
-  - nome: argocd-repositories-helm-k8s
-  - nome: argocd-helm-chart-k8s
-  - nome: cartoes-k8s
-  - nome: prometheus-helm-chart-k8s
-  - nome: kubernetes-persistent-volumes-k8s
+  - nome: lancamentos
+  - nome: argocd-applications
+  - nome: argocd-repositories-helm
+  - nome: argocd-helm-chart
+  - nome: cartoes
+  - nome: prometheus-helm-chart
+  - nome: kubernetes-persistent-volumes
+  - nome: grafana
