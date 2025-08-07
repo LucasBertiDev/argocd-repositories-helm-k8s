@@ -13,7 +13,7 @@ metadata:
   annotations:
     managed-by: argocd.argoproj.io
 data:
-  name: {{ .nome | b64enc }}
+  name: {{ .nome | b64enc }}-k8s
   project: {{ .projeto | default "default" | b64enc }}
   type: {{ "git" | b64enc }}
   url: {{ printf "%s/%s/%s%s" $.Values.urlGithub $.Values.usuarioGithub .nome "-k8s" | b64enc }}
